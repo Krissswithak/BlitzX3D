@@ -1,7 +1,3 @@
-<p align="center">
-  <img width="1920" height="600" alt="banner" src="https://github.com/user-attachments/assets/b02c6fe2-f50d-480f-92ef-936bd5d42227" />
-</p>
-
 BlitzX3D is a community-maintained fork of Blitz3D TSS, originally based on Blitz3D. It focuses on maintaining and extending the Blitz3D engine while attempting to preserve compatibility with existing projects and libraries.
 
 > [!WARNING]
@@ -11,8 +7,7 @@ BlitzX3D is a community-maintained fork of Blitz3D TSS, originally based on Blit
 
 Need help, have a question, or found a problem?
 
-- [**Join the BlitzX3D Support Discord**](https://discord.gg/S7MXjp6ejW)
-- [**Open a GitHub Issue**](https://github.com/krimbopple/BlitzX3D/issues) for bugs, feature requests, or other issues.
+- [**Open a GitHub Issue**](https://github.com/Krissswithak/BlitzX3D/issues) for bugs, feature requests, or other issues.
 
 > **Note:** BlitzX3D is volunteer-maintained. Support is best-effort with no
 > guaranteed response time
@@ -34,20 +29,7 @@ Need help, have a question, or found a problem?
 - "Faster than old Blitz3D" 
 
 ### Used in
-* **SCP – Containment Breach Ultimate Edition Reborn Multiplayer**
-* [**SCP – Containment Breach Ultimate Edition Reborn 1.6**](https://github.com/Jabka666/scpcb-ue-my/tree/1.5.x)
-* [**SCP – Terror Hunt**](https://www.moddb.com/mods/scp-terror-hunt-mod)
-* [**SCP – Janitorial Work**](https://www.moddb.com/mods/scp-janitorial-work)
-* [**SCP – Containment Breach Amended**](https://www.moddb.com/mods/scp-amended1)
-* [**SCP – Containment Breach Inclemency**](https://www.moddb.com/mods/cb-inclemency)
-* [**SCP – Treachery**](https://www.moddb.com/mods/treachery)
-* [**SCP – Chaos Containment**](https://www.moddb.com/mods/scp-chaos-containment)
-* [**YOU ARE NOT IMPORTANT**](https://www.moddb.com/mods/you-are-not-important)
-
-### Verified & total support for
-* [**Stranded II**](https://www.unrealsoftware.de/game_stranded2.php)
-* [**Hard Time**](https://www.mdickie.com/prev_hardtime.htm)
-* [**SCP – Containment Breach 1.3.12 (Community Preservation Project)**](https://github.com/SCP-CB-CPP/scpcb/tree/bx3d)
+Nothing yet!
 
 ---
 

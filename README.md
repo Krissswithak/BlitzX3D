@@ -73,11 +73,6 @@ AI-generated PRs, issues, and descriptions are not accepted.
   (Or clone with `git clone --recurse-submodules`.) SDL3 is linked statically, so no `SDL3.dll` needs to be shipped alongside the builds.
 - `LLVM-C.dll` isn't committed, but is needed. Get it here [LLVM 21.1.8 win32](https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.8/LLVM-21.1.8-win32.exe) and copy `bin\LLVM-C.dll` to `vendor/llvm32/bin/`.
 
-### Encryption
-
-This public repository no longer includes the source-encryption feature. Engine builds with this feature, along with the corresponding source code, are provided exclusively to trusted developers.
-If you require source encryption, please request access from [@krimbopple](https://github.com/krimbopple)
-
 ### Steps
 
 1. Open `blitz3d.sln` in Visual Studio 2022.

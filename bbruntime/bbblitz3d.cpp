@@ -34,10 +34,6 @@ extern gxFileSystem* gx_filesys;
 static int tri_count;
 static World* world;
 
-World* bbGetWorld() {
-	return world;
-}
-
 static std::unordered_set<Brush*> brush_set;
 std::unordered_set<Texture*> texture_set;
 struct EntityInfo {

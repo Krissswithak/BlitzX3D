@@ -6,7 +6,4 @@
 
 extern gxScene* gx_scene;
 
-class World;
-World* bbGetWorld();
-
 #endif

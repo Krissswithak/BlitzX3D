@@ -375,7 +375,10 @@ bool gxGraphics::restore() {
 	HRESULT hr = dir3dDev->CheckDeviceState(runtime->hwnd);
 	if (hr == D3DERR_DEVICELOST || hr == D3DERR_DEVICEHUNG || hr == D3DERR_DEVICEREMOVED) return false;
 
-	if (hr == D3DERR_DEVICENOTRESET || hr == S_PRESENT_MODE_CHANGED) {
+	bool vsync = present_params.PresentationInterval != runtime->d3dpp.PresentationInterval;
+	if (vsync) present_params.PresentationInterval = runtime->d3dpp.PresentationInterval;
+	
+	if (vsync || hr == D3DERR_DEVICENOTRESET || hr == S_PRESENT_MODE_CHANGED) {
 		if (present_params.Windowed && !runtime->antialiasRequested()) {
 			present_params.Flags |= D3DPRESENTFLAG_LOCKABLE_BACKBUFFER;
 		}

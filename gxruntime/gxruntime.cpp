@@ -486,6 +486,18 @@ void gxRuntime::flip(bool vwait) {
 
 	if (graphics) graphics->resolveAntialias();
 
+	//this shit is unmaintainable
+	//its about sending a message
+	UINT vsync = vwait ? D3DPRESENT_INTERVAL_ONE : D3DPRESENT_INTERVAL_IMMEDIATE;
+
+	if (d3dpp.PresentationInterval != vsync) {
+		d3dpp.PresentationInterval = vsync;
+		if (!graphics->restore()) {
+			gfx_lost = true;
+			return;
+		}
+	}
+
 	HRESULT hr = d3dDevice->Present(NULL, NULL, NULL, NULL);
 	if (hr == D3DERR_DEVICELOST || hr == D3DERR_DEVICEHUNG || hr == D3DERR_DEVICEREMOVED) {
 		gfx_lost = true;

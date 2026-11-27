@@ -29,7 +29,7 @@ Need help, have a question, or found a problem?
 - "Faster than old Blitz3D" 
 
 ### Used in
-* [**SCP – Containment Breach Ultimate Edition Reborn 1.6**]([https://www.moddb.com/mods/scp-containment-breach-ultimate-edition/downloads/scp-containment-breach-ultimate-edition-reborn-v16-installer])
+* [**SCP – Containment Breach Ultimate Edition Reborn 1.6**](https://www.moddb.com/mods/scp-containment-breach-ultimate-edition/downloads/scp-containment-breach-ultimate-edition-reborn-v16-installer)
 
 ---
 

@@ -1,4 +1,4 @@
-BlitzX3D is a community-maintained fork of Blitz3D TSS, originally based on Blitz3D. It focuses on maintaining and extending the Blitz3D engine while attempting to preserve compatibility with existing projects and libraries.
+Aether3D is a fork of [BlitzX3D](https://github.com/Team-X3D/BlitzX3D)
 
 > [!WARNING]
 > Old userlibs are not guaranteed to work and will not be supported.
@@ -7,9 +7,9 @@ BlitzX3D is a community-maintained fork of Blitz3D TSS, originally based on Blit
 
 Need help, have a question, or found a problem?
 
-- [**Open a GitHub Issue**](https://github.com/Krissswithak/BlitzX3D/issues) for bugs, feature requests, or other issues.
+- [**Open a GitHub Issue**](https://github.com/Krissswithak/Aether3D/issues) for bugs, feature requests, or other issues.
 
-> **Note:** BlitzX3D is volunteer-maintained. Support is best-effort with no
+> **Note:** Aether3D is volunteer-maintained. Support is best-effort with no
 > guaranteed response time
 
 ---
@@ -19,10 +19,10 @@ Need help, have a question, or found a problem?
 - New ImGui-based IDE & Debugger replacing the legacy editors.
 - Debugger runs as a separate process for better performance, and now has expandable arrays in variable trees.
 - Built-in profiler with per-function timing, call counts, memory statistics, and a flame graph for identifying performance bottlenecks.
-- [New scene system with commands for creating, switching, clearing, and querying scenes.](https://github.com/krimbopple/BlitzX3D/wiki/New-Commands#createscene--setscene--clearscene--getcurrentscene)
+- [New scene system with commands for creating, switching, clearing, and querying scenes.](https://github.com/Krissswithak/Aether3D/wiki/New-Commands#createscene--setscene--clearscene--getcurrentscene)
 - Async texture loading, dramatically reducing boot and loading times.
 - Improved rendering performance through render-state batching, draw-call sorting, brush-bucketed rendering, and faster font lookups.
-- [Improved shader support, including .fx effects, runtime effect textures, and per-frame shader parameters.](https://github.com/krimbopple/BlitzX3D/wiki/New-Commands#loadeffect--setentityeffect--setbrusheffect)
+- [Improved shader support, including .fx effects, runtime effect textures, and per-frame shader parameters.](https://github.com/Krissswithak/Aether3D/wiki/New-Commands#loadeffect--setentityeffect--setbrusheffect)
 - Better render-target control with SetBufferDepth and RenderEntity.
 - Improved texture handling, including automatic alpha detection, animated texture grids, mipmapped filtering, cubemap fixes, and better transparency handling.
 - Upgraded audio system now powered by BASS for improved compatibility, stability, and sound quality.
@@ -38,9 +38,9 @@ Need help, have a question, or found a problem?
 Please read the applicable license files before using, modifying, or
 distributing this project.
 
-BlitzX3D contains source code derived from the original Blitz3D project, as
+Aether3D contains source code derived from BlitzX3D, the original Blitz3D project, as
 well as third-party components. Those portions remain licensed under their
-respective original licenses and are not relicensed by BlitzX3D.
+respective original licenses and are not relicensed by Aether3D.
 
 Original contributions to BlitzX3D by Chris A. (krimbopple) are licensed under
 the AGPL-3.0 License (see LICENSE).
